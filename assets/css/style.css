@@ -1,0 +1,68 @@
+body{
+	background: url("../images/mountain.jpg");
+	background-repeat:no-repeat;
+	background-size: 100%;
+
+}
+*{
+	box-sizing: border-box;
+}
+.container{
+	width: 720px;
+    padding: 10px;
+    height: 700px;
+    border: 5px solid gray;
+    margin: auto;
+    background-color: #EBF4FA;
+  	
+
+}
+h1{
+color:#3090C7;
+text-align: center;
+@import url: ('https://fonts.googleapis.com/css?family=Patua+One');
+font-family: 'Patua One';
+font-size: 50px;
+
+}
+
+h2{
+
+  @import url:('https://fonts.googleapis.com/css?family=Patua+One');
+	text-align: center;
+ font-family: 'Patua One';
+	color:#008080;
+}
+
+.instructions{
+	@import url:('https://fonts.googleapis.com/css?family=Patua+One');
+	color: #806517;
+	font-family: 'Patua One';
+	text-align: center;
+	font-size: 40px;
+}
+
+#rightletter{
+
+	@import url:('https://fonts.googleapis.com/css?family=Patua+One');
+	color: #806517;
+	font-family: 'Patua One';
+	font-size: 20px;
+}
+
+
+#start{
+@import url:('https://fonts.googleapis.com/css?family=Patua+One');
+	color: #806517;
+	font-family: 'Patua One';
+	font-size: 15px;
+	text-align: center;
+
+
+}
+
+canvas{
+  color:$white;
+  border: $white dashed 2px;
+  padding:15px;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hangman Game</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+
+
+
+
+
+</head>
+
+<body>
+
+	<div class="container">
+		
+		<header>
+		<h1>Hangman Game</h1>
+
+			<h2>Ski Towns</h2>
+		</header>
+
+			<div class="instructions">
+			<p>Guess the ski town!</p>
+			
+
+			</div>
+		
+	
+		
+<div id="game">
+		
+	
+		
+		   <p id="lettersPressed"></p>
+		   <p id="start">Press any key to get started!</p>
+		  
+			
+		   <p id="wordSpaces">_ _ _ _</p>
+
+			
+
+		 <p id="guessesLeft"></p>
+		 	<p id="count"></p>
+		 	<p id="rightletter">Right letters:</p>
+		 	 <p id="guessedSoFar">Guesses so far:</p>
+		 	<p id="winCounter">Wins:</p>
+		 
+		 	<input type = "button" id="start">Guess</button>
+<input type= "button" id="reset">Play Again</button>
+
+
+	</div>
+	<div class="col-md-3">
+	</div>
+
+
+			
+		
+			<p id="letters"></p>
+			
+				<canvas id="hangman" width="700" height="800"></canvas>
+				<button onclick="draw()">Draw</button>
+				<button>Reset</button>
+
+
+	
+			
+			
+
+				
+		
+		 	
+			
+			
+		</div>
+
+</div>
+		 
+	
+		
+		
+		
+		
+</div>
+		
+			
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+ 
+
+
+</body>
+</html>
