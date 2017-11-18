@@ -10,7 +10,7 @@ var doubleWord = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm
 
 var drawArray = ['rightLeg', 'leftLeg', 'rightArm', 'leftArm',  'torso',  'head', 'frame4', 'frame3', 'frame2', 'frame1']; 
 
-var rightLetter = ["___", "___", "___", "___", "___", "___", "___", "___"];
+var rightLetter = [];
 var wrongLetter = [];
 var guessesLeft = 10;
 var wordSpaces = [];
@@ -134,32 +134,29 @@ console.log(generatewordSpaces());
    // var drawMe = lives ;
   //  drawArray[drawMe]();
  // }
+ function createWordSpaces() {
+ 	var newArray;
+ 	for (var i = newArray.length.length - 1; i >= 0; i--) {
+ 		newArray.length[i]
+ 	}
+ 	newArray.createElement('<div>' + ) 
+ 	$('#rightletter').push(newArray)
+
+ 	//create new array of letters with .split for random word
+ 	//loop through that new array and create new div element for each letter with a _
+ 	//create another that replaces those indexes with the right letter
+ }
 
   
    // Hangman
 function draw(){
 
 
-  // var canvas = document.getElementById('hangman');
- //  var context = canvas.getContext("2d");
- //  context = hangman.getContext('2d');
- //   context.beginPath();
- //   context.strokeStyle = "#fff";
- //   context.lineWidth = 2;
 
-   
- //  context.fillRect(100, 100, 50, 100);
- //  context.stokeRect(300, 100, 50, 100);
 
 };
 
-//head = function(){
-  //    hangman = document.getElementById("hangman");
-   //   context = hangman.getContext('2d');
-   //   context.beginPath();
-   //   context.arc(60, 25, 10, 0, Math.PI*2, true);
-   //   context.stroke();
-   // }
+
 
 function reset(){
 	var canvas = document.getElementById('hangman');
@@ -176,17 +173,6 @@ $(document).ready(function(){
 	draw();
 });
 
-
-//    
-  //  context.moveTo($pathFromx, $pathFromy);
-    //context.lineTo($pathTox, $pathToy);
-    //context.stroke(); 
-//}
-  
-   
-  
-
-  
 
 
 var html =  "<p>Press any key to get started!</p>" +
