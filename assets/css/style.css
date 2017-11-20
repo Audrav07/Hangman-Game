@@ -10,7 +10,7 @@ body{
 .container{
 	width: 720px;
     padding: 10px;
-    height: 700px;
+    height: 800px;
     border: 5px solid gray;
     margin: auto;
     background-color: #EBF4FA;
@@ -50,6 +50,21 @@ h2{
 	font-size: 20px;
 }
 
+#wordSpaces{
+	@import url:('https://fonts.googleapis.com/css?family=Patua+One');
+	color: #806517;
+	font-family: 'Patua One';
+	font-size: 20px;
+}
+
+#guessedSoFar{
+	@import url:('https://fonts.googleapis.com/css?family=Patua+One');
+	color: #FFA62F;
+	font-family: 'Patua One';
+	font-size: 20px;
+
+}
+
 
 #start{
 @import url:('https://fonts.googleapis.com/css?family=Patua+One');
@@ -62,7 +77,14 @@ h2{
 }
 
 canvas{
-  color:$white;
-  border: $white dashed 2px;
+  color: #ffffff;
+  border: #808080 dashed 3px;
   padding:15px;
+  float: center;
+  margin-left: 300px;
+ 
+  margin-bottom:100px;
+  margin-top: -120px;
+ 
 }
+
